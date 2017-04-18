@@ -1,0 +1,15 @@
+package hangman;
+import java.util.Arrays;import java.util.Scanner;
+public class Hangman {
+        public static void main(String[] args) {        
+        Scanner letterProvided = new Scanner(System.in);       
+        System.out.println("Please pick a number from 1 to 3 for the difficulty you would like to play or 0 to quit ");        
+        int intDifficulty = letterProvided.nextInt();                
+        if(intDifficulty == 1){            
+        System.out.print("I see you've chosen the easy difficulty\n");        }        
+        if(intDifficulty == 2){            
+        System.out.print("I see you've chosen the normal difficulty\n");        }        
+        if(intDifficulty ==3){            
+        System.out.print("I see you've chosen the hardest difficulty\n");        }        
+        if(intDifficulty ==0){            
+        System.out.print("Looks like you're done playing\n");        }                }        }
