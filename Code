@@ -12,4 +12,7 @@ public class Hangman {
         if(intDifficulty ==3){            
         System.out.print("I see you've chosen the hardest difficulty\n");        }        
         if(intDifficulty ==0){            
-        System.out.print("Looks like you're done playing\n");        }                }        }
+        System.out.print("Looks like you're done playing\n");        }              
+                     }      
+        
+        }
